@@ -1,0 +1,9 @@
+.large-3 {
+  border-left: 1px solid #ddd;
+}
+.large-3:first-of-type {
+  border: 0;
+}
+.large-6 {
+  border-left: 1px solid #ddd;
+}

@@ -21,6 +21,10 @@ module.exports = function(grunt) {
           "css/layout.css": "less/layout.less"
         }
       }
+    },
+    watch: {
+      files: ['less/*.less'],
+      tasks: ['less:development'],
     }
   });
 
@@ -28,6 +32,7 @@ module.exports = function(grunt) {
   // grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task(s).
   // grunt.registerTask('default', ['uglify']);
