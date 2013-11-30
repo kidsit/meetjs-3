@@ -1,0 +1,17 @@
+{
+  "name": "meetjs-demo",
+  "version": "0.1.0",
+  "description": "meetjs demo project",
+  "author": "Bart Tomżyński <bart@factorynine.co>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:factorynine/meetjs-3.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}
