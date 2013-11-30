@@ -23,8 +23,19 @@ module.exports = function(grunt) {
       }
     },
     watch: {
-      files: ['less/*.less'],
-      tasks: ['less:development'],
+      less: {
+        files: ['less/*.less'],
+        tasks: ['less:development'],
+        options: {
+          livereload: true
+        }
+      },
+      html: {
+        files: ['*.html'],
+        options: {
+          livereload: true
+        }
+      }
     }
   });
 
